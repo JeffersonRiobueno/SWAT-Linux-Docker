@@ -96,6 +96,11 @@ Este documento proporciona una lista de los comandos básicos de Linux y Docker 
   ```
 
 ### 2. **Gestión de Imágenes**
+- `docker build .`: Construir imagen a partir del docker file.
+  ```bash
+  docker build .
+  ```
+
 - `docker pull <imagen>`: Descarga una imagen desde Docker Hub.
   ```bash
   docker pull nginx
